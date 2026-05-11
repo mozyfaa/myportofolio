@@ -4,14 +4,14 @@ Website portofolio personal sederhana menggunakan HTML, CSS, dan JavaScript.
 
 ## Cara edit data
 
-Ubah teks placeholder di `index.html`:
+Data utama di `index.html` sudah memakai:
 
-- `Nama Kamu`
-- `NK`
+- `Faozi`
+- `OZ`
 - `Frontend Developer`
-- `emailkamu@example.com`
-- `https://github.com/username`
-- `https://www.linkedin.com/in/username`
+- `imamfaozi@student.uhb.ac.id`
+- `https://github.com/mozyfaa`
+- `https://www.linkedin.com/in/imam-faozi`
 - Judul dan deskripsi proyek di bagian `projects`
 
 ## Cara melihat di komputer
@@ -38,7 +38,7 @@ git init
 git add .
 git commit -m "Initial portfolio website"
 git branch -M main
-git remote add origin https://github.com/username/myportfolio.git
+git remote add origin https://github.com/mozyfaa/myportofolio.git
 git push -u origin main
 ```
 
@@ -50,5 +50,5 @@ git push -u origin main
 Setelah aktif, website biasanya tersedia di:
 
 ```text
-https://username.github.io/myportfolio/
+https://mozyfaa.github.io/myportofolio/
 ```
