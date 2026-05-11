@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Website portofolio personal untuk menampilkan profil, skill, proyek, dan kontak."
+    />
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home">MyPortfolio</a>
+      <button class="menu-toggle" aria-label="Buka menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" aria-label="Navigasi utama">
+        <a href="#about">Tentang</a>
+        <a href="#skills">Skill</a>
+        <a href="#projects">Proyek</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-content">
+          <p class="eyebrow">Halo, saya</p>
+          <h1>Nama Kamu</h1>
+          <p class="hero-copy">
+            Web developer yang membangun website modern, responsif, dan nyaman
+            digunakan. Saya suka mengubah ide menjadi produk digital yang rapi.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">Lihat Proyek</a>
+            <a class="button secondary" href="https://github.com/username" target="_blank" rel="noreferrer">
+              GitHub
+            </a>
+          </div>
+        </div>
+        <div class="profile-panel" aria-label="Ringkasan profil">
+          <div class="avatar">NK</div>
+          <p class="role">Frontend Developer</p>
+          <p class="location">Indonesia</p>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">Tentang Saya</p>
+          <h2>Membangun pengalaman web yang jelas dan berguna.</h2>
+        </div>
+        <p class="section-copy">
+          Saya fokus pada pembuatan website portofolio, landing page, dan
+          aplikasi web sederhana menggunakan HTML, CSS, JavaScript, dan
+          framework modern. Website ini bisa kamu sesuaikan dengan nama,
+          foto, proyek, dan link sosial media kamu sendiri.
+        </p>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">Skill</p>
+          <h2>Teknologi yang saya gunakan.</h2>
+        </div>
+        <div class="skills-grid">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>React</span>
+          <span>GitHub</span>
+          <span>Responsive Design</span>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Proyek</p>
+          <h2>Beberapa karya pilihan.</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <p class="project-type">Website</p>
+            <h3>Landing Page Produk</h3>
+            <p>
+              Halaman promosi responsif dengan fokus pada tampilan bersih,
+              informasi produk, dan tombol aksi yang jelas.
+            </p>
+            <a href="https://github.com/username" target="_blank" rel="noreferrer">Lihat detail</a>
+          </article>
+          <article class="project-card">
+            <p class="project-type">Aplikasi Web</p>
+            <h3>To-Do App</h3>
+            <p>
+              Aplikasi daftar tugas sederhana dengan fitur tambah, hapus, dan
+              tandai selesai menggunakan JavaScript.
+            </p>
+            <a href="https://github.com/username" target="_blank" rel="noreferrer">Lihat detail</a>
+          </article>
+          <article class="project-card">
+            <p class="project-type">Portofolio</p>
+            <h3>Personal Portfolio</h3>
+            <p>
+              Website profil personal untuk menampilkan skill, pengalaman,
+              proyek, dan kontak profesional.
+            </p>
+            <a href="https://github.com/username" target="_blank" rel="noreferrer">Lihat detail</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div>
+          <p class="eyebrow">Kontak</p>
+          <h2>Mari bekerja sama.</h2>
+          <p class="section-copy">
+            Hubungi saya untuk kolaborasi, project freelance, atau sekadar
+            berdiskusi tentang ide website.
+          </p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:emailkamu@example.com">emailkamu@example.com</a>
+          <a href="https://www.linkedin.com/in/username" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/username" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Nama Kamu. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
